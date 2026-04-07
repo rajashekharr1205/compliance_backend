@@ -1,0 +1,4 @@
+flask
+PyMySQL
+PyJWT
+flask-cors

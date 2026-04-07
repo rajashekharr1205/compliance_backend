@@ -1,0 +1,297 @@
+phrase,category,score,situation
+yes,Acknowledgment,3,acknowledgment
+yes doctor,High,10,confirmation
+yeah,Acknowledgment,3,acknowledgment
+yep,Acknowledgment,3,acknowledgment
+right,Acknowledgment,3,acknowledgment
+yeah,Acknowledgment,3,acknowledgment
+yep,Acknowledgment,3,acknowledgment
+sure,Acknowledgment,3,acknowledgment
+sure doctor,High,10,confirmation
+okay,Acknowledgment,3,acknowledgment
+ok doctor,High,10,confirmation
+alright,Acknowledgment,3,acknowledgment
+fine,Acknowledgment,3,acknowledgment
+correct,Acknowledgment,3,acknowledgment
+confirmed,High,10,confirmation
+definitely,High,10,confirmation
+absolutely,High,10,confirmation
+of course,High,10,confirmation
+agreed,High,10,confirmation
+understood,High,10,confirmation
+I understand,High,10,confirmation
+got it,High,10,confirmation
+done,Acknowledgment,3,acknowledgment
+certainly,High,10,confirmation
+sounds good,Acknowledgment,3,acknowledgment
+right doctor,High,10,confirmation
+yes I will,High,10,confirmation
+I agree,High,10,confirmation
+that works,Acknowledgment,3,acknowledgment
+good doctor,High,10,confirmation
+yes please,High,10,confirmation
+okay I understand,High,10,confirmation
+that is fine,High,10,confirmation
+perfect,High,10,confirmation
+alright doctor,High,10,confirmation
+sure thing,High,10,confirmation
+okay sure,High,10,confirmation
+I will come,High,10,appointment_commitment
+I will visit,High,10,appointment_commitment
+I will attend,High,10,appointment_commitment
+I will be there,High,10,appointment_commitment
+I will come tomorrow,High,10,appointment_commitment
+I will come today,High,10,appointment_commitment
+I will come this week,High,10,appointment_commitment
+I will come for checkup,High,10,appointment_commitment
+I will schedule appointment,High,10,appointment_commitment
+I will book appointment,High,10,appointment_commitment
+see you tomorrow,High,10,appointment_commitment
+I will arrive on time,High,10,appointment_commitment
+I will come morning,High,10,appointment_commitment
+I will come evening,High,10,appointment_commitment
+I will come in morning,High,10,appointment_commitment
+I will come in evening,High,10,appointment_commitment
+I will see you tomorrow,High,10,appointment_commitment
+I will meet you tomorrow,High,10,appointment_commitment
+I will come again,High,10,appointment_commitment
+I will follow up,High,10,appointment_commitment
+I will visit clinic,High,10,appointment_commitment
+I will come for cleaning,High,10,appointment_commitment
+I will come for treatment,High,10,appointment_commitment
+see you doctor,High,10,appointment_commitment
+I will come next visit,High,10,appointment_commitment
+I will check in,High,10,appointment_commitment
+I will take medicine,High,10,treatment_compliance
+I will follow instructions,High,10,treatment_compliance
+I will follow treatment,High,10,treatment_compliance
+I will brush regularly,High,10,treatment_compliance
+I will brush twice daily,High,10,treatment_compliance
+I will floss daily,High,10,treatment_compliance
+I will rinse mouth,High,10,treatment_compliance
+I will use mouthwash,High,10,treatment_compliance
+I will avoid sweets,High,10,treatment_compliance
+I will follow diet,High,10,treatment_compliance
+I will follow advice,High,10,treatment_compliance
+I will follow doctor instructions,High,10,treatment_compliance
+take medicine,High,10,treatment_compliance
+take tablet,High,10,treatment_compliance
+use mouthwash,High,10,treatment_compliance
+brush twice daily,High,10,treatment_compliance
+floss daily,High,10,treatment_compliance
+rinse mouth,High,10,treatment_compliance
+avoid sweets,High,10,treatment_compliance
+avoid cold drinks,High,10,treatment_compliance
+soft food diet,High,10,treatment_compliance
+follow instructions,High,10,treatment_compliance
+follow treatment,High,10,treatment_compliance
+follow advice,High,10,treatment_compliance
+continue medicine,High,10,treatment_compliance
+complete treatment,High,10,treatment_compliance
+feeling better,High,10,positive_feedback
+pain reduced,High,10,positive_feedback
+swelling reduced,High,10,positive_feedback
+recovery improving,High,10,positive_feedback
+treatment helping,High,10,positive_feedback
+medicine working,High,10,positive_feedback
+gums better,High,10,positive_feedback
+bleeding reduced,High,10,positive_feedback
+less pain,High,10,positive_feedback
+less bleeding,High,10,positive_feedback
+pain improving,High,10,positive_feedback
+healing well,High,10,positive_feedback
+condition improving,High,10,positive_feedback
+mouth feels better,High,10,positive_feedback
+tooth pain reduced,High,10,positive_feedback
+recovered,High,10,positive_feedback
+healing,High,10,positive_feedback
+thank you doctor,High,10,positive_feedback
+thanks doctor,High,10,positive_feedback
+thank you so much,High,10,positive_feedback
+appreciate it,High,10,positive_feedback
+thanks for help,High,10,positive_feedback
+good advice,High,10,positive_feedback
+very helpful,High,10,positive_feedback
+good treatment,High,10,positive_feedback
+very good,High,10,positive_feedback
+great,Acknowledgment,3,acknowledgment
+excellent,High,10,positive_feedback
+amazing,High,10,positive_feedback
+nice doctor,High,10,positive_feedback
+maybe,Medium,5,uncertain_response
+maybe doctor,Medium,5,uncertain_response
+possibly,Medium,5,uncertain_response
+probably,Medium,5,uncertain_response
+I think,Medium,5,uncertain_response
+I guess,Medium,5,uncertain_response
+not sure,Medium,5,uncertain_response
+I will try,Medium,5,uncertain_response
+I will check,Medium,5,uncertain_response
+let me see,Medium,5,uncertain_response
+let me check,Medium,5,uncertain_response
+I will try doctor,Medium,5,uncertain_response
+I will ask family,Medium,5,uncertain_response
+I will ask my husband,Medium,5,uncertain_response
+I will ask my wife,Medium,5,uncertain_response
+I will ask parents,Medium,5,uncertain_response
+maybe I will come,Medium,5,uncertain_response
+maybe tomorrow,Medium,5,appointment_uncertainty
+maybe next week,Medium,5,appointment_uncertainty
+I will try to come,Medium,5,appointment_uncertainty
+I will try next week,Medium,5,appointment_uncertainty
+I will check schedule,Medium,5,appointment_uncertainty
+I will confirm later,Medium,5,appointment_uncertainty
+I will see if possible,Medium,5,appointment_uncertainty
+let me think,Medium,5,appointment_uncertainty
+I will decide later,Medium,5,appointment_uncertainty
+maybe soon,Medium,5,appointment_uncertainty
+I will check time,Medium,5,appointment_uncertainty
+I will see doctor later,Medium,5,appointment_uncertainty
+mild pain,Medium,5,mild_symptom
+slight pain,Medium,5,mild_symptom
+little discomfort,Medium,5,mild_symptom
+moderate pain,Medium,5,mild_symptom
+pain sometimes,Medium,5,mild_symptom
+occasional pain,Medium,5,mild_symptom
+little swelling,Medium,5,mild_symptom
+small discomfort,Medium,5,mild_symptom
+next appointment,Medium,5,treatment_reference
+next visit,Medium,5,treatment_reference
+dental cleaning,Medium,5,treatment_reference
+scaling,Medium,5,treatment_reference
+polishing,Medium,5,treatment_reference
+filling,Medium,5,treatment_reference
+tooth filling,Medium,5,treatment_reference
+root canal,Medium,5,treatment_reference
+rct treatment,Medium,5,treatment_reference
+extraction,Medium,5,treatment_reference
+tooth removal,Medium,5,treatment_reference
+wisdom tooth removal,Medium,5,treatment_reference
+implant,Medium,5,treatment_reference
+dental crown,Medium,5,treatment_reference
+bridge treatment,Medium,5,treatment_reference
+braces treatment,Medium,5,treatment_reference
+aligners,Medium,5,treatment_reference
+dentures,Medium,5,treatment_reference
+no,Low,-10,direct_refusal
+no doctor,Low,-10,direct_refusal
+not possible,Low,-10,direct_refusal
+cannot come,Low,-10,direct_refusal
+I cannot come,Low,-10,direct_refusal
+I cannot visit,Low,-10,direct_refusal
+I will not come,Low,-10,direct_refusal
+I don't want treatment,Low,-10,direct_refusal
+I can't come,Low,-10,direct_refusal
+maybe later,Low,-10,appointment_avoidance
+not now,Low,-10,appointment_avoidance
+I will come later,Low,-10,appointment_avoidance
+I will postpone,Low,-10,appointment_avoidance
+I will cancel,Low,-10,appointment_avoidance
+I will skip appointment,Low,-10,appointment_avoidance
+skip appointment,Low,-10,appointment_avoidance
+I am busy,Low,-10,appointment_avoidance
+too busy,Low,-10,appointment_avoidance
+not free,Low,-10,appointment_avoidance
+no time,Low,-10,appointment_avoidance
+later doctor,Low,-10,appointment_avoidance
+medicine not working,Low,-10,treatment_rejection
+I stopped medicine,Low,-10,treatment_rejection
+treatment too painful,Low,-10,treatment_rejection
+I don't want root canal,Low,-10,treatment_rejection
+I don't want extraction,Low,-10,treatment_rejection
+I don't want surgery,Low,-10,treatment_rejection
+treatment painful,Low,-10,treatment_rejection
+scared,Low,-10,fear_anxiety
+scared doctor,Low,-10,fear_anxiety
+afraid,Low,-10,fear_anxiety
+afraid of dentist,Low,-10,fear_anxiety
+dental fear,Low,-10,fear_anxiety
+dental anxiety,Low,-10,fear_anxiety
+nervous,Low,-10,fear_anxiety
+very nervous,Low,-10,fear_anxiety
+worried,Low,-10,fear_anxiety
+tension,Low,-10,fear_anxiety
+scared of dentist,Low,-10,fear_anxiety
+afraid of treatment,Low,-10,fear_anxiety
+fear of injection,Low,-10,fear_anxiety
+fear of surgery,Low,-10,fear_anxiety
+pain increasing,Low,-10,negative_health
+swelling worse,Low,-10,negative_health
+infection spreading,Low,-10,negative_health
+bleeding more,Low,-10,negative_health
+severe pain,Low,-10,negative_health
+unbearable pain,Low,-10,negative_health
+I cannot afford,Low,-10,financial_concern
+too expensive,Low,-10,financial_concern
+not interested,Low,-10,financial_concern
+tooth pain,Symptom,3,dental_condition
+toothache,Symptom,3,dental_condition
+severe tooth pain,Symptom,3,dental_condition
+throbbing tooth pain,Symptom,3,dental_condition
+sharp tooth pain,Symptom,3,dental_condition
+constant tooth pain,Symptom,3,dental_condition
+pain while chewing,Symptom,3,dental_condition
+pain while biting,Symptom,3,dental_condition
+pain while brushing,Symptom,3,dental_condition
+gum bleeding,Symptom,3,dental_condition
+swollen gums,Symptom,3,dental_condition
+gum infection,Symptom,3,dental_condition
+red gums,Symptom,3,dental_condition
+sore gums,Symptom,3,dental_condition
+gum irritation,Symptom,3,dental_condition
+broken tooth,Symptom,3,dental_condition
+cracked tooth,Symptom,3,dental_condition
+chipped tooth,Symptom,3,dental_condition
+loose tooth,Symptom,3,dental_condition
+damaged tooth,Symptom,3,dental_condition
+fractured tooth,Symptom,3,dental_condition
+tooth sensitivity,Symptom,3,dental_condition
+pain with cold water,Symptom,3,dental_condition
+pain with hot drinks,Symptom,3,dental_condition
+sensitive teeth,Symptom,3,dental_condition
+sharp pain with sweets,Symptom,3,dental_condition
+pus from gums,Symptom,3,dental_condition
+swelling in face,Symptom,3,dental_condition
+dental infection,Symptom,3,dental_condition
+gum abscess,Symptom,3,dental_condition
+jaw swelling,Symptom,3,dental_condition
+mouth pain,Symptom,3,dental_condition
+tooth cavity,Symptom,3,dental_condition
+decay in tooth,Symptom,3,dental_condition
+bad breath,Symptom,3,dental_condition
+bleeding gums,Symptom,3,dental_condition
+sharp pain,Symptom,3,dental_condition
+throbbing pain,Symptom,3,dental_condition
+constant pain,Symptom,3,dental_condition
+pain in tooth,Symptom,3,dental_condition
+pain while eating,Symptom,3,dental_condition
+pain when drinking,Symptom,3,dental_condition
+pain with cold,Symptom,3,dental_condition
+pain with hot,Symptom,3,dental_condition
+pain at night,Symptom,3,dental_condition
+sudden pain,Symptom,3,dental_condition
+jaw pain,Symptom,3,dental_condition
+gum pain,Symptom,3,dental_condition
+cheek pain,Symptom,3,dental_condition
+extreme pain,Symptom,3,dental_condition
+gum swelling,Symptom,3,dental_condition
+gum inflammation,Symptom,3,dental_condition
+gum tenderness,Symptom,3,dental_condition
+bleeding while brushing,Symptom,3,dental_condition
+bleeding while flossing,Symptom,3,dental_condition
+missing tooth,Symptom,3,dental_condition
+tooth decay,Symptom,3,dental_condition
+cavity,Symptom,3,dental_condition
+rotten tooth,Symptom,3,dental_condition
+bad tooth,Symptom,3,dental_condition
+cold sensitivity,Symptom,3,dental_condition
+hot sensitivity,Symptom,3,dental_condition
+sweet sensitivity,Symptom,3,dental_condition
+pain with sweets,Symptom,3,dental_condition
+sensitive gums,Symptom,3,dental_condition
+pus in gums,Symptom,3,dental_condition
+pus discharge,Symptom,3,dental_condition
+face swelling,Symptom,3,dental_condition
+mouth swelling,Symptom,3,dental_condition
+infection pain,Symptom,3,dental_condition
+bad smell,Symptom,3,dental_condition

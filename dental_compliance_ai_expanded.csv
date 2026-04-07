@@ -1,0 +1,280 @@
+phrase,category,score,situation
+I will definitely come for the appointment,High,10,appointment_commitment
+I promise to come tomorrow,High,10,appointment_commitment
+I am coming tomorrow for sure,High,10,appointment_commitment
+I have already booked my appointment,High,10,appointment_commitment
+I will be there on time doctor,High,10,appointment_commitment
+count me in for the appointment,High,10,appointment_commitment
+I will not miss this appointment,High,10,appointment_commitment
+I have marked it in my calendar,High,10,appointment_commitment
+I will come for the follow up,High,10,appointment_commitment
+I am ready for the treatment,High,10,appointment_commitment
+I want to get this treated,High,10,appointment_commitment
+please schedule me for tomorrow,High,10,appointment_commitment
+I need to get this fixed,High,10,appointment_commitment
+I want the treatment done,High,10,appointment_commitment
+I will come this evening,High,10,appointment_commitment
+I will visit the clinic today,High,10,appointment_commitment
+I will reach on time,High,10,appointment_commitment
+I am planning to come tomorrow,High,10,appointment_commitment
+I have decided to come,High,10,appointment_commitment
+I will be there first thing in the morning,High,10,appointment_commitment
+booking my slot now,High,10,appointment_commitment
+I confirm the appointment,High,10,appointment_commitment
+please confirm my appointment,High,10,appointment_commitment
+I will come next Monday,High,10,appointment_commitment
+I will visit you this week,High,10,appointment_commitment
+I am coming day after tomorrow,High,10,appointment_commitment
+I will come early morning,High,10,appointment_commitment
+I will come in the afternoon,High,10,appointment_commitment
+I have kept time for the visit,High,10,appointment_commitment
+I will come for the checkup as planned,High,10,appointment_commitment
+I will follow every instruction,High,10,treatment_compliance
+I will take the medicine regularly,High,10,treatment_compliance
+I will follow the prescribed diet,High,10,treatment_compliance
+I will use the mouthwash twice daily,High,10,treatment_compliance
+I will brush and floss as you said,High,10,treatment_compliance
+I will take antibiotics on time,High,10,treatment_compliance
+I will complete the full course of medicine,High,10,treatment_compliance
+I will not eat anything hard,High,10,treatment_compliance
+I will follow all precautions,High,10,treatment_compliance
+I will take care of the wound,High,10,treatment_compliance
+I will apply the gel as prescribed,High,10,treatment_compliance
+I will gargle with salt water,High,10,treatment_compliance
+I will avoid spicy food,High,10,treatment_compliance
+I will rest properly after treatment,High,10,treatment_compliance
+I will not smoke after extraction,High,10,treatment_compliance
+I will take painkillers if needed,High,10,treatment_compliance
+I will follow your advice doctor,High,10,treatment_compliance
+I will do exactly as you say,High,10,treatment_compliance
+I will be careful with the treated tooth,High,10,treatment_compliance
+I will come for all follow up visits,High,10,treatment_compliance
+I am following the medication properly,High,10,treatment_compliance
+the treatment is really working well,High,10,positive_feedback
+I feel much better after the treatment,High,10,positive_feedback
+the pain has completely gone,High,10,positive_feedback
+I am very satisfied with the treatment,High,10,positive_feedback
+the medicine is working perfectly,High,10,positive_feedback
+my tooth feels normal now,High,10,positive_feedback
+the swelling has gone down completely,High,10,positive_feedback
+I can eat normally now,High,10,positive_feedback
+the bleeding has stopped completely,High,10,positive_feedback
+I am very happy with the results,High,10,positive_feedback
+the treatment was painless,High,10,positive_feedback
+I am glad I came for the treatment,High,10,positive_feedback
+my recovery is going very well,High,10,positive_feedback
+the filling is comfortable,High,10,positive_feedback
+I feel no pain at all now,High,10,positive_feedback
+thank you doctor for the wonderful treatment,High,10,positive_feedback
+the procedure went smoothly,High,10,positive_feedback
+I am healing very fast,High,10,positive_feedback
+the crown fits perfectly,High,10,positive_feedback
+my gums are completely healed,High,10,positive_feedback
+I am very comfortable now,High,10,positive_feedback
+yes I agree with the treatment plan,High,10,confirmation
+I trust your recommendation doctor,High,10,confirmation
+I want to proceed with the treatment,High,10,confirmation
+please go ahead with the procedure,High,10,confirmation
+I am okay with whatever you suggest,High,10,confirmation
+I consent to the treatment,High,10,confirmation
+I understand and I will follow,High,10,confirmation
+yes doctor I completely agree,High,10,confirmation
+that sounds like a good plan,High,10,confirmation
+I will do as you recommend,High,10,confirmation
+hmm,Acknowledgment,3,acknowledgment
+uh huh,Acknowledgment,3,acknowledgment
+ah okay,Acknowledgment,3,acknowledgment
+oh okay,Acknowledgment,3,acknowledgment
+oh,Acknowledgment,3,acknowledgment
+i see,Acknowledgment,3,acknowledgment
+right right,Acknowledgment,3,acknowledgment
+okay okay,Acknowledgment,3,acknowledgment
+yes yes,Acknowledgment,3,acknowledgment
+mm,Acknowledgment,3,acknowledgment
+mmm,Acknowledgment,3,acknowledgment
+hm,Acknowledgment,3,acknowledgment
+ya,Acknowledgment,3,acknowledgment
+yah,Acknowledgment,3,acknowledgment
+ah,Acknowledgment,3,acknowledgment
+aha,Acknowledgment,3,acknowledgment
+oh i see,Acknowledgment,3,acknowledgment
+oh right,Acknowledgment,3,acknowledgment
+oh yes,Acknowledgment,3,acknowledgment
+i know,Acknowledgment,3,acknowledgment
+yeah yeah,Acknowledgment,3,acknowledgment
+all right,Acknowledgment,3,acknowledgment
+very well,Acknowledgment,3,acknowledgment
+fair enough,Acknowledgment,3,acknowledgment
+no problem,Acknowledgment,3,acknowledgment
+no worries,Acknowledgment,3,acknowledgment
+that is nice,Acknowledgment,3,acknowledgment
+is it,Acknowledgment,3,acknowledgment
+understood doctor,Acknowledgment,3,acknowledgment
+right doctor,Acknowledgment,3,acknowledgment
+okay fine,Acknowledgment,3,acknowledgment
+alright alright,Acknowledgment,3,acknowledgment
+good,Acknowledgment,3,acknowledgment
+good good,Acknowledgment,3,acknowledgment
+nice,Acknowledgment,3,acknowledgment
+cool,Acknowledgment,3,acknowledgment
+hello,Acknowledgment,2,greeting
+good morning,Acknowledgment,2,greeting
+good afternoon,Acknowledgment,2,greeting
+good evening,Acknowledgment,2,greeting
+hello doctor,Acknowledgment,2,greeting
+hi doctor,Acknowledgment,2,greeting
+good morning doctor,Acknowledgment,2,greeting
+good afternoon doctor,Acknowledgment,2,greeting
+good evening doctor,Acknowledgment,2,greeting
+how are you doctor,Acknowledgment,2,greeting
+how are you doing doctor,Acknowledgment,2,greeting
+namaste doctor,Acknowledgment,2,greeting
+hi,Acknowledgment,2,greeting
+hey,Acknowledgment,2,greeting
+good day,Acknowledgment,2,greeting
+thank you,Acknowledgment,3,acknowledgment
+thanks,Acknowledgment,3,acknowledgment
+thank you for explaining,Acknowledgment,3,acknowledgment
+thanks for the information,Acknowledgment,3,acknowledgment
+I appreciate your time,Acknowledgment,3,acknowledgment
+I will try my best to come,Medium,5,appointment_uncertainty
+I will see if I can manage,Medium,5,appointment_uncertainty
+I need to check with my family first,Medium,5,appointment_uncertainty
+I have to discuss with my spouse,Medium,5,appointment_uncertainty
+let me talk to my family,Medium,5,appointment_uncertainty
+I will let you know by tomorrow,Medium,5,appointment_uncertainty
+I am not completely sure yet,Medium,5,uncertain_response
+I need some time to decide,Medium,5,uncertain_response
+I have to think about it,Medium,5,uncertain_response
+I am still considering,Medium,5,uncertain_response
+it depends on my work schedule,Medium,5,appointment_uncertainty
+I will try to adjust my schedule,Medium,5,appointment_uncertainty
+if possible I will come,Medium,5,appointment_uncertainty
+I will try to make it,Medium,5,appointment_uncertainty
+let me see if I can take leave,Medium,5,appointment_uncertainty
+I will come if I get time,Medium,5,appointment_uncertainty
+I need to ask my boss for leave,Medium,5,appointment_uncertainty
+maybe I can come in the evening,Medium,5,appointment_uncertainty
+I will check my calendar,Medium,5,appointment_uncertainty
+I might be able to come next week,Medium,5,appointment_uncertainty
+I am thinking about it,Medium,5,uncertain_response
+I will decide and let you know,Medium,5,uncertain_response
+probably I will come,Medium,5,uncertain_response
+possibly in the afternoon,Medium,5,uncertain_response
+I hope I can come,Medium,5,uncertain_response
+I want to come but not sure,Medium,5,uncertain_response
+I will try to visit soon,Medium,5,uncertain_response
+not sure about the exact date,Medium,5,uncertain_response
+I will confirm after checking,Medium,5,uncertain_response
+we will see,Medium,5,uncertain_response
+let us see how it goes,Medium,5,uncertain_response
+I will think and tell you,Medium,5,uncertain_response
+I really want to but I need to check,Medium,5,uncertain_response
+sometime this week maybe,Medium,5,uncertain_response
+perhaps next week would work,Medium,5,uncertain_response
+if my pain increases I will come,Medium,5,uncertain_response
+I will come if it does not improve,Medium,5,uncertain_response
+I will visit if the swelling stays,Medium,5,uncertain_response
+I will see how the medicine works first,Medium,5,uncertain_response
+let me try the medicine first,Medium,5,uncertain_response
+I want to wait and see,Medium,5,uncertain_response
+I will observe for a few more days,Medium,5,uncertain_response
+the pain is not that bad right now,Medium,5,mild_symptom
+it hurts a little but its manageable,Medium,5,mild_symptom
+slight discomfort while eating,Medium,5,mild_symptom
+pain comes and goes,Medium,5,mild_symptom
+only hurts when I chew,Medium,5,mild_symptom
+some sensitivity to cold,Medium,5,mild_symptom
+little bit of bleeding when brushing,Medium,5,mild_symptom
+minor swelling near the tooth,Medium,5,mild_symptom
+I dont think I can come,Low,-10,direct_refusal
+I wont be able to make it,Low,-10,direct_refusal
+I am not coming,Low,-10,direct_refusal
+I have decided not to come,Low,-10,direct_refusal
+I dont want any treatment right now,Low,-10,direct_refusal
+I am not willing to undergo surgery,Low,-10,direct_refusal
+no thanks I am fine,Low,-10,direct_refusal
+I dont need treatment now,Low,-10,direct_refusal
+please cancel my booking,Low,-10,direct_refusal
+I want to cancel the appointment,Low,-10,direct_refusal
+remove my name from the list,Low,-10,direct_refusal
+I am not planning to visit,Low,-10,direct_refusal
+I changed my mind about the treatment,Low,-10,direct_refusal
+I am occupied for the whole week,Low,-10,appointment_avoidance
+I have too much work,Low,-10,appointment_avoidance
+my schedule does not allow,Low,-10,appointment_avoidance
+I cannot take leave from work,Low,-10,appointment_avoidance
+I have other priorities right now,Low,-10,appointment_avoidance
+I will come someday,Low,-10,appointment_avoidance
+some other time doctor,Low,-10,appointment_avoidance
+not this week doctor,Low,-10,appointment_avoidance
+not this month,Low,-10,appointment_avoidance
+I will see later,Low,-10,appointment_avoidance
+I will call you back,Low,-10,appointment_avoidance
+I will inform you later,Low,-10,appointment_avoidance
+let it be doctor,Low,-10,appointment_avoidance
+lets leave it for now,Low,-10,appointment_avoidance
+I dont want to waste money,Low,-10,financial_concern
+it costs too much,Low,-10,financial_concern
+I cannot afford this treatment,Low,-10,financial_concern
+the treatment is very costly,Low,-10,financial_concern
+I dont have that kind of money,Low,-10,financial_concern
+is there a cheaper alternative,Low,-10,financial_concern
+I need to save money first,Low,-10,financial_concern
+insurance does not cover this,Low,-10,financial_concern
+can I pay in installments,Low,-10,financial_concern
+the cost is too high,Low,-10,financial_concern
+I am very scared of the drill,Low,-10,fear_anxiety
+I am terrified of injections,Low,-10,fear_anxiety
+I have had bad experiences with dentists,Low,-10,fear_anxiety
+I panic during dental procedures,Low,-10,fear_anxiety
+I cant sit in the dental chair,Low,-10,fear_anxiety
+I am phobic about dental work,Low,-10,fear_anxiety
+just thinking about it makes me anxious,Low,-10,fear_anxiety
+I faint when I see blood,Low,-10,fear_anxiety
+I am too scared to come,Low,-10,fear_anxiety
+the last time was very painful,Low,-10,fear_anxiety
+I have dental trauma,Low,-10,fear_anxiety
+the pain has become unbearable,Low,-10,negative_health
+my tooth is completely broken,Low,-10,negative_health
+the infection is spreading to my face,Low,-10,negative_health
+I notice pus coming from my gums,Low,-10,negative_health
+the pain gets worse every day,Low,-10,negative_health
+the medicine you gave is not helping,Low,-10,treatment_rejection
+I stopped taking the pills,Low,-10,treatment_rejection
+the medication has side effects,Low,-10,treatment_rejection
+I am using my own home remedy,Low,-10,treatment_rejection
+I prefer traditional medicine,Low,-10,treatment_rejection
+I dont believe in modern dental treatment,Low,-10,treatment_rejection
+I read online that this treatment is bad,Low,-10,treatment_rejection
+someone told me not to do this,Low,-10,treatment_rejection
+thank you doctor but I am not interested,Low,-10,direct_refusal
+I appreciate but I will manage on my own,Low,-10,direct_refusal
+thank you but no,Low,-10,direct_refusal
+I am okay I dont need help,Low,-10,direct_refusal
+it is fine I will handle it myself,Low,-10,direct_refusal
+I have pain in my lower jaw,Symptom,2,dental_condition
+my back teeth are aching,Symptom,2,dental_condition
+I feel a throbbing sensation in my tooth,Symptom,2,dental_condition
+there is a hole in my tooth,Symptom,2,dental_condition
+my wisdom tooth is coming in,Symptom,2,dental_condition
+I have a metallic taste in my mouth,Symptom,2,dental_condition
+my gums bleed every morning,Symptom,2,dental_condition
+I notice white patches on my tongue,Symptom,2,dental_condition
+my teeth are becoming yellow,Symptom,2,dental_condition
+I feel pain when I drink cold water,Symptom,2,dental_condition
+my jaw clicks when I open my mouth,Symptom,2,dental_condition
+I have difficulty opening my mouth,Symptom,2,dental_condition
+there is swelling on one side of my face,Symptom,2,dental_condition
+I am getting frequent mouth ulcers,Symptom,2,dental_condition
+my previous filling fell out,Symptom,2,dental_condition
+the crown feels loose,Symptom,2,dental_condition
+I grind my teeth at night,Symptom,2,dental_condition
+my tooth changed color to dark,Symptom,2,dental_condition
+I feel something sharp in my mouth,Symptom,2,dental_condition
+my dentures dont fit properly,Symptom,2,dental_condition
+I have a lump on my gums,Symptom,2,dental_condition
+food gets stuck between my teeth,Symptom,2,dental_condition
+my tongue is swollen,Symptom,2,dental_condition
+I have dry mouth all the time,Symptom,2,dental_condition
+my breath smells very bad,Symptom,2,dental_condition
