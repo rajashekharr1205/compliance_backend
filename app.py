@@ -445,5 +445,32 @@ def institutional_stats():
             conn.close()
 
 
+@app.route('/api/delete-account', methods=['DELETE'])
+@token_required
+def delete_account(user_id):
+    """Deletes a user's account and all associated data."""
+    try:
+        conn = get_db_connection()
+        with conn.cursor() as cursor:
+            # First, delete all reports associated with this user
+            cursor.execute("DELETE FROM reports WHERE user_id = %s", (user_id,))
+            # Then, delete any OTP codes
+            cursor.execute("SELECT email FROM users WHERE id = %s", (user_id,))
+            user = cursor.fetchone()
+            if user:
+                cursor.execute("DELETE FROM otp_codes WHERE email = %s", (user['email'],))
+            # Finally, delete the user from the users table
+            cursor.execute("DELETE FROM users WHERE id = %s", (user_id,))
+            
+        conn.commit()
+        return jsonify({'message': 'Account and all associated data deleted successfully'})
+    except Exception as e:
+        print(f"Error deleting account for user {user_id}: {e}")
+        return jsonify({'message': str(e)}), 500
+    finally:
+        if 'conn' in locals():
+            conn.close()
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
