@@ -411,6 +411,99 @@ def analyze_compliance(user_id):
 def serve_photo(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
+@app.route('/api/privacy-policy', methods=['GET'])
+def privacy_policy():
+    """Serves the Privacy Policy and Terms and Conditions as a public HTML page."""
+    return """
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Privacy Policy & Terms - Compliance</title>
+        <style>
+            body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #f8fafc; }
+            .container { background: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+            h1 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+            h2 { color: #1e3a8a; margin-top: 30px; }
+            h3 { color: #334155; margin-top: 20px; }
+            .update-date { color: #64748b; font-size: 0.9em; margin-bottom: 30px; }
+            ul { padding-left: 20px; }
+            footer { margin-top: 50px; text-align: center; color: #94a3b8; font-size: 0.8em; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Privacy Policy & Terms and Conditions</h1>
+            <p class="update-date">Last updated: September 29, 2025</p>
+
+            <h2>Privacy Policy</h2>
+            <p>This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use Compliance. By accessing or using Compliance, you consent to the practices described below.</p>
+
+            <h3>Data Collection</h3>
+            <ul>
+                <li><strong>Personal information:</strong> Name, contact information, age and medical data provided voluntarily.</li>
+                <li><strong>Device information:</strong> IP address, device type, OS version, unique device identifiers, and diagnostics.</li>
+                <li><strong>Health-related data:</strong> Heart rate, blood pressure, blood sugar, HRV and related health readings as submitted or measured by the app.</li>
+            </ul>
+
+            <h3>Use of Data</h3>
+            <ul>
+                <li>To deliver health monitoring and analytics features.</li>
+                <li>To improve app performance and user experience.</li>
+                <li>To contact users for support, updates, and health tips.</li>
+                <li>For research and product improvement.</li>
+            </ul>
+
+            <h3>Data Retention</h3>
+            <p>All personal information is retained as long as necessary for app functionality, support, and as required by law. Users may request deletion of their data at any time.</p>
+
+            <h3>Data Deletion &amp; Account Removal</h3>
+            <p>Users have the right to delete their account and all associated data at any time. This can be done directly within the app settings under the 'Danger Zone' section. Upon deletion, all personal data, audit reports, and health-related records are permanently removed from our active servers. Files such as profile photos and recordings are also physically deleted from the storage system.</p>
+
+            <h3>Sharing and Disclosure</h3>
+            <p>No data is sold to third parties. Data may be disclosed when required by law, to protect rights, or during company mergers/acquisitions.</p>
+
+            <h3>Security</h3>
+            <p>We use commercially reasonable measures to protect your data, but cannot guarantee absolute security in transmission or storage.</p>
+
+            <h3>Children's Privacy</h3>
+            <p>Compliance is not intended for users under 13. We do not knowingly collect information from children. Contact us for related concerns.</p>
+            <p>Email: corecare.ios@gmail.com</p>
+
+            <hr>
+
+            <h2>Terms and Conditions</h2>
+            <p>By downloading, installing, or using Compliance, you agree to abide by these Terms and Conditions.</p>
+
+            <h3>App Usage</h3>
+            <ul>
+                <li>The app is for informational and health monitoring purposes only, not a substitute for professional medical advice.</li>
+                <li>Consult a qualified healthcare provider before making health decisions based on app data.</li>
+                <li>Compliance and its developers are not liable for the accuracy, completeness, or interpretation of health data provided by the app.</li>
+            </ul>
+
+            <h3>Intellectual Property</h3>
+            <p>All content, designs, and code are property of Compliance or its licensors. Reproduction, redistribution, or reverse engineering is prohibited without explicit permission.</p>
+
+            <h3>Limitations</h3>
+            <p>App features require device permissions (camera, sensors, etc.). Refusal may limit functionality. The company reserves the right to update, change or discontinue any part of the app at any time.</p>
+
+            <h3>Governing Law</h3>
+            <p>These terms are governed by the laws of Tamil Nadu, India.</p>
+
+            <h3>Changes to These Terms</h3>
+            <p>Updates to these Terms & Conditions will be posted here. Continued use of the app means acceptance of any changes.</p>
+
+            <footer>
+                © Compliance — Privacy Policy & Terms.<br>
+                Country: Tamil Nadu, India.
+            </footer>
+        </div>
+    </body>
+    </html>
+    """
+
 @app.route('/api/institutional-stats', methods=['GET'])
 def institutional_stats():
     """Returns aggregated compliance statistics across all departments for institutional audit."""
